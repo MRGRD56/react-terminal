@@ -1,0 +1,17 @@
+.terminal {
+    --padding: 5px;
+
+    min-height: calc(100% - var(--padding) * 2);
+    width: calc(100% - var(--padding) * 2);
+    background-color: #263238;
+    color: #eceff1;
+    padding: var(--padding);
+    font-family: "JetBrains Mono", monospace;
+    float: left;
+    word-break: break-all;
+    white-space: pre;
+
+    .terminal-output {
+
+    }
+}
